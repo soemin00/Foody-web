@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Online Food Devilery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@300&family=Poppins:wght@200;300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<div class="sidebar">
+		<h1 class="logo">FOODIFY</h1>
+		<div class="sidebar-menu">
+			<a href="#"><i class="fa-solid fa-house"></i>Home</a>
+			<a href="#"><i class="fa-solid fa-money-bill"></i>Bills</a>
+			<a href="#"><i class="fa-solid fa-wallet"></i>Wallets</a>
+			<a href="#"><i class="fa-solid fa-bell"></i>Notifications</a>
+			<a href="#"><i class="fa-solid fa-address-book"></i>Contact Us</a>
+			<a href="#"><i class="fa-solid fa-gear"></i>Setting</a>
+		</div>
+		<div class="sidebar-logout">
+			<a href="#"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main-navbar">
+			<i class="fa-solid fa-bars" id="toggle-menu"></i>
+			<div class="search">
+				<input type="text" placeholder="What you want to eat?">
+				<button class="search-btn">Search</button>
+			</div>
+			<div class="profile">
+				<a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+				<a href="#" class="user"><i class="fa-solid fa-user"></i></a>
+			</div>
+		</div>
+		<div class="main-highlight">
+			<div class="main-header">
+				<h2 class="main-title">Recommendations</h2>
+				<div class="main-arrow">
+					<i class="fa-solid fa-backward" id="back"></i>
+					<i class="fa-solid fa-forward" id="next"></i>
+				</div>
+			</div>
+			<div class="highlight-wrapper">
+				<div class="highlight-card">
+					<img src="images/burmese-tofu.jpg" class="highlight-img">
+					<div class="highlight-desc">
+						<h4>Burmese Tofu</h4>
+						<p>$18.50</p>
+					</div>
+				</div>
+				<div class="highlight-card">
+					<img src="images/laphet-thoke.jpg" class="highlight-img">
+					<div class="highlight-desc">
+						<h4>Laphet-Thoke</h4>
+						<p>$15.80</p>
+					</div>
+				</div>
+				<div class="highlight-card">
+					<img src="images/mohinga.jpg" class="highlight-img">
+					<div class="highlight-desc">
+						<h4>Mohinga</h4>
+						<p>$20.50</p>
+					</div>
+				</div>
+				<div class="highlight-card">
+					<img src="images/MalarHin.jpg" class="highlight-img">
+					<div class="highlight-desc">
+						<h4>MalarHin</h4>
+						<p>$25.70</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-menu">
+			<div class="main-filter">
+				<div>
+					<h2 class="main-title">Menu<br>Category</h2>
+					<div class="main-arrow">
+						<i class="fa-solid fa-backward" id="back-menu"></i>
+						<i class="fa-solid fa-forward" id="next-menu"></i>
+					</div>
+				</div>
+				<div class="filter-wrapper">
+					<div class="filter-card">
+						<div class="filter-icon">
+							<i class="fa-solid fa-utensils"></i>
+						</div>
+						<p>All Menus</p>
+					</div>
+					<div class="filter-card">
+						<div class="filter-icon">
+							<i class="fa-solid fa-burger"></i>
+						</div>
+						<p>Burger</p>
+					</div>
+					<div class="filter-card">
+						<div class="filter-icon">
+							<i class="fa-solid fa-pizza-slice"></i>
+						</div>
+						<p>Pizza</p>
+					</div>
+					<div class="filter-card">
+						<div class="filter-icon">
+							<i class="fa-solid fa-wine-bottle"></i>
+						</div>
+						<p>Wine</p>
+					</div>
+					<div class="filter-card">
+						<div class="filter-icon">
+							<i class="fa-solid fa-ice-cream"></i>
+						</div>
+						<p>Ice-cream</p>
+					</div>
+					<div class="filter-card">
+						<div class="filter-icon">
+							<i class="fa-solid fa-mug-hot"></i>
+						</div>
+						<p>Coffee</p>
+					</div>
+					<div class="filter-card">
+						<div class="filter-icon">
+							<i class="fa-solid fa-shrimp"></i>
+						</div>
+						<p>Seafood</p>
+					</div>
+					<div class="filter-card">
+						<div class="filter-icon">
+							<i class="fa-solid fa-apple-whole"></i>
+						</div>
+						<p>Healthy</p>
+					</div>
+				</div>
+			</div>
+			<hr class="divider">
+			<div class="main-detail">
+				<h2 class="main-title">Choose Order</h2>
+				<div class="detail-wrapper">
+					<div class="detail-card">
+						<img src="images/burmese-tofu.jpg" class="detail-img">
+						<div class="detail-desc">
+							<div class="detail-name">
+								<h4>Burmese Tofu</h4>
+								<p class="detail-sub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+								<p class="price"> $18.50</p>
+							</div>
+						<i class="fa-regular fa-bookmark" id="bookmark"></i>
+						</div>
+					</div>
+
+					<div class="detail-card">
+						<img src="images/mohinga.jpg" class="detail-img">
+						<div class="detail-desc">
+							<div class="detail-name">
+								<h4>Mohingar</h4>
+								<p class="detail-sub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+								<p class="price"> $20.50</p>
+							</div>
+						<i class="fa-regular fa-bookmark" id="bookmark"></i>
+						</div>
+					</div>
+
+					<div class="detail-card">
+						<img src="images/laphet-thoke.jpg" class="detail-img">
+						<div class="detail-desc">
+							<div class="detail-name">
+								<h4>Laphet Thoke</h4>
+								<p class="detail-sub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+								<p class="price"> $15.80</p>
+							</div>
+						<i class="fa-regular fa-bookmark" id="bookmark"></i>
+						</div>
+					</div>
+
+					<div class="detail-card">
+						<img src="images/MalarHin.jpg" class="detail-img">
+						<div class="detail-desc">
+							<div class="detail-name">
+								<h4>MalarHin</h4>
+								<p class="detail-sub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+								<p class="price"> $25.70</p>
+							</div>
+						<i class="fa-regular fa-bookmark" id="bookmark"></i>
+						</div>
+					</div>
+
+					<div class="detail-card">
+						<img src="images/khao-soi.jpg" class="detail-img">
+						<div class="detail-desc">
+							<div class="detail-name">
+								<h4>Khao Soi</h4>
+								<p class="detail-sub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+								<p class="price"> $30.50</p>
+							</div>
+						<i class="fa-regular fa-bookmark" id="bookmark"></i>
+						</div>
+					</div>
+
+					<div class="detail-card">
+						<img src="images/MontLinMayar.jpg" class="detail-img">
+						<div class="detail-desc">
+							<div class="detail-name">
+								<h4>MontLinMayar</h4>
+								<p class="detail-sub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+								<p class="price"> $12.50</p>
+							</div>
+						<i class="fa-regular fa-bookmark" id="bookmark"></i>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
